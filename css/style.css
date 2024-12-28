@@ -1,0 +1,761 @@
+/* All Commom CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+a,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Commom CSS End */
+
+
+
+/* navbar  Part Start */
+.navbar {
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-link {
+    color: #1C1E53;
+    font-size: 21px;
+    font-weight: 400;
+    transition: .4s;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link:hover {
+    color: #5E3BEE;
+}
+
+.navbar-btn a {
+    padding: 10px 30px;
+    background-color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+    color: white;
+    transition: .4s;
+    border-radius: 8px;
+}
+
+.navbar-btn a:hover {
+    color: #5E3BEE;
+    background-color: white;
+}
+
+.sticky_header {
+    background: teal;
+    animation: alamin 1s;
+}
+
+@keyframes alamin {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.back-to-top i {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 40px;
+    color: #5E3BEE;
+}
+
+/* navbar  Part End */
+
+
+
+/* top header Part Start */
+#top-header-part {
+    margin-bottom: 100px;
+}
+
+.topheadercolor {
+    padding: 110px 0;
+    width: 100%;
+    background-color: #F5FCFF;
+}
+
+.top-header-item {
+    margin-top: 125px;
+}
+
+.top-header-item h4 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.top-header-item h3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #282938;
+    margin-top: 20px;
+}
+
+.top-header-item span {
+    color: #5E3BEE;
+}
+
+.top-header-item p {
+    color: #1C1E53;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 143px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-header-item a {
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+    background-color: #5E3BEE;
+    transition: .4s;
+    margin-top: 25px;
+}
+
+.top-header-item a:hover {
+    color: #5E3BEE;
+    background-color: #FFF;
+}
+
+/* top header Part End */
+
+
+
+/* header Part Start */
+#header-part {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.header-write h3 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.header-write h2 {
+    color: #282938;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.header-item {
+    padding: 25px 15px 20px 15px;
+    width: 100%;
+    background-color: #F5FCFF;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.header-item i {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-item h4 {
+    color: #282938;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.header-item h5 {
+    color: #282938;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.header-item:hover {
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+    box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+}
+
+/* About part start  */
+#about-me {
+    margin-bottom: 200px;
+}
+
+.about-me-item {
+    padding-top: 250px;
+    padding-left: 30px;
+}
+
+.about-me-item h6 {
+    color: #282938;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-me-item h4 {
+    color: #282938;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.about-me-item p {
+    color: #282938;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 58px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-me-item h2 {
+    color: #282938;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 58px;
+    line-height: 30px;
+}
+
+/* About part end  */
+
+/* portfolio Part Start */
+#portfolio-part {
+    margin-bottom: 100px;
+}
+
+.portfolio-icon ul li {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #E62872;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: .4s;
+    border: 1px solid #E62872;
+}
+
+.portfolio-icon {
+    padding-top: 45px;
+}
+
+.portfolio-icon ul li a i {
+    color: white;
+    margin-right: 15px;
+    transition: .4s;
+}
+
+.portfolio-icon ul li:hover {
+    color: #E62872;
+    background-color: white;
+}
+
+.portfolio-write {
+    padding: 15px;
+}
+
+.portfolio-write h3 {
+    color: #282938;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-write p {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.portfolio-write ul li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    transition: .4s;
+}
+
+.portfolio-write ul li i {
+    rotate: -40deg;
+}
+
+.portfolio-write ul li {
+    border-bottom: 1px solid #5E3BEE;
+    width: 41%;
+}
+
+.portfolio-write ul li a:hover {
+    color: #5E3BEE;
+}
+
+.porrfolio-item {
+    transition: .4s;
+}
+
+.porrfolio-item:hover {
+    -webkit-box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+    box-shadow: 0px 7px 6px 0px rgba(94, 59, 238, 1);
+
+}
+
+/* portfolio Part End */
+
+
+
+/* customer Part Start */
+#customer-part {
+    padding: 150px 0;
+    background-color: #F5FCFF;
+    margin-bottom: 100px;
+}
+
+.customer-write {
+    padding: 35px 20px;
+    border: 1px solid #006B6A;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.customer-flex {
+    display: flex;
+}
+
+.customer-flex i {
+    color: #006B6A;
+}
+
+.customer-write p {
+    color: #1C1E53;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.customerflex3 {
+    width: 15%;
+    margin-top: 20px;
+}
+
+.customer-flex2 {
+    display: flex;
+}
+
+.customerflex4 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.customerflex4 h4 {
+    color: #282938;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.customerflex4 h5 {
+    color: #282938;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* customer Part End */
+
+
+
+/* contact Part Start */
+#contact-part {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.contact-write h4 {
+    color: #282938;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.contact-write h2 {
+    color: #282938;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.contact-write p {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact-form {
+    padding-top: 80px;
+}
+
+.contact-form input {
+    padding: 10px 110px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+.contact-form h3 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-form1 {
+    padding-top: 30px;
+}
+
+.contact-form1 input {
+    padding: 10px 110px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+.contact-form1 h3 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-form2 {
+    padding-top: 30px;
+}
+
+.contact-form2 h3 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-form2 input {
+    padding: 10px 651px 10px 10px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+.contact-form2 a i {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -13px;
+    font-size: 20px;
+    color: black;
+}
+
+.contact-form3 {
+    padding-top: 30px;
+}
+
+.contact-form3 h3 {
+    color: #282938;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-form3 input {
+    padding: 10px 651px 110px 10px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+}
+
+.contact-form4 h3 {
+    color: #282938;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.contact-form4 {
+    padding-top: 30px;
+}
+
+.submit-btn a {
+    padding: 15px 40px;
+    background-color: #5E3BEE;
+    border-radius: 5px;
+    border: 1px solid #5E3BEE;
+    color: white;
+    margin-top: 40px;
+    transition: .4s;
+}
+
+.submit-btn a:hover {
+    color: #5E3BEE;
+    background-color: white;
+}
+
+
+
+
+
+/* contact Part End */
+
+
+
+/* last Part Start */
+#last-part {
+    padding: 100px 0;
+    background-color: #F5FCFF;
+}
+
+.last-menu-part ul li {
+    display: inline-block;
+}
+
+.last-menu-part ul li a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+.last-menu-part ul li a:hover {
+    color: #006B6A;
+}
+.last-menu-par3 ul li{
+    display: inline-block;
+}
+
+
+.last-menu-par3 ul li a i {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+    margin-top: 18px;
+    transition: .4s;
+}
+.last-menu-par3 ul li a i:hover{
+    color: #006B6A;
+}
+.last-dag{
+    padding: 1px;
+    width: 100%;
+    background-color: #00000028;
+    margin-top: 100px;
+}
+.dager-nicher-part p{
+    color: #000000;
+    margin-top: 30px;
+}
+.last-part-write ul li {
+    display: inline-block;
+    margin-top: 30px;
+}
+.last-part-write ul li a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+    transition: .4s;
+}
+.last-part-write ul li a:hover{
+    color: #006B6A;
+}
+
+/* last Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
