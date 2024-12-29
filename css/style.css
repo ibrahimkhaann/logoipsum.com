@@ -5,6 +5,7 @@
     outline: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
+    
 }
 
 a,
@@ -577,7 +578,8 @@ p {
 .last-menu-part ul li a:hover {
     color: #006B6A;
 }
-.last-menu-par3 ul li{
+
+.last-menu-par3 ul li {
     display: inline-block;
 }
 
@@ -590,31 +592,37 @@ p {
     margin-top: 18px;
     transition: .4s;
 }
-.last-menu-par3 ul li a i:hover{
+
+.last-menu-par3 ul li a i:hover {
     color: #006B6A;
 }
-.last-dag{
+
+.last-dag {
     padding: 1px;
     width: 100%;
     background-color: #00000028;
     margin-top: 100px;
 }
-.dager-nicher-part p{
+
+.dager-nicher-part p {
     color: #000000;
     margin-top: 30px;
 }
+
 .last-part-write ul li {
     display: inline-block;
     margin-top: 30px;
 }
-.last-part-write ul li a{
+
+.last-part-write ul li a {
     color: #000000;
     font-size: 20px;
     font-weight: 400;
     padding: 0 10px;
     transition: .4s;
 }
-.last-part-write ul li a:hover{
+
+.last-part-write ul li a:hover {
     color: #006B6A;
 }
 

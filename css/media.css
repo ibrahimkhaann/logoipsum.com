@@ -7,12 +7,346 @@
 
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-toggler i {
+        color: red;
+        margin-left: -90px;
+    }
+    .navbar-brand {
+        margin-left: -59px;
+    }
+    .nav-item{
+       background-color:teal;
+    }
+    .nav-link{
+        margin-left: 178px;
+    }
+    .navbar-btn a {
+        margin-left: 193px;
+    }
+    .top-header-item {
+        margin-top: 0px;
+    }
+    .top-header-item h3 {
+        font-size: 30px;
+    }
+    .top-header-item p {
+        padding-right: 94px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .top-header-img img {
+        margin-left: -60px;
+    }
+    .topheadercolor {
+        padding: 40px 0;
+        width: 100%;
+        background-color: #F5FCFF;
+    }
+    #header-part {
+         padding-top: 0px;
+       
+    }
+    #top-header-part {
+        margin-bottom: 40px;
+    }
+    .header-write h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .header-item {
+        margin-bottom: 30px;
+    }
+    .about-me-item {
+        padding-top: 80px;
+    }
+    #about-me {
+        margin-bottom: 40px;
+    }
+    .portfolio-icon {
+        padding-top: 0px;
+    }
+    .portfolio-icon ul li {
+        margin-bottom: 20px;
+    }
+    .portfolio-write {
+        margin-bottom: 20px;
+    }
+    #portfolio-part {
+        margin-bottom: 40px;
+    }
+    #customer-part {
+        padding: 50px 0;
+    }
+    .customer-write {
+        margin-bottom: 20px;
+    }
+    #contact-part {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .contact-write p {
+        line-height: 30px;
+    }
+    .contact-form2 input {
+        padding: 10px 214px 10px 10px;
+    }
+    .contact-form3 input {
+        padding: 10px 216px 110px 10px;
+    }
+    .top-header-item {
+        margin-top: 50px;
+    }
+    .submit-btn a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #last-part {
+        padding: 40px 0;
+    }
+    .last-menu-part ul li a {
+        font-size: 10px;
+    }
+    .last-dag {
+        margin-top: 40px;
+    }
+    .last-part-write ul li a {
+        font-size: 16px;
+    }
+    .dager-nicher-part p {
+        margin-left: 10px;
+    }
+ }
 
 
 /* Small devices */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-toggler i {
+        color: red;
+        margin-left: -300px;
+    }
+    .navbar-brand {
+        margin-left: -156px;
+    }
+    .nav-item{
+       background-color:teal;
+    }
+    .nav-link{
+        margin-left: 178px;
+    }
+    .navbar-btn a {
+        margin-left: 193px;
+    }
+    .top-header-item {
+        margin-top: 0px;
+    }
+    .top-header-item h3 {
+        font-size: 30px;
+    }
+    .top-header-item p {
+        padding-right: 94px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .top-header-img img {
+        margin-left: -60px;
+    }
+    .topheadercolor {
+        padding: 40px 0;
+        width: 100%;
+        background-color: #F5FCFF;
+    }
+    #header-part {
+         padding-top: 0px;
+       
+    }
+    #top-header-part {
+        margin-bottom: 40px;
+    }
+    .header-write h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .header-item {
+        margin-bottom: 30px;
+    }
+    .about-me-item {
+        padding-top: 80px;
+    }
+    #about-me {
+        margin-bottom: 40px;
+    }
+    .portfolio-icon {
+        padding-top: 0px;
+    }
+    .portfolio-icon ul li {
+        margin-bottom: 20px;
+    }
+    .portfolio-write {
+        margin-bottom: 20px;
+    }
+    #portfolio-part {
+        margin-bottom: 40px;
+    }
+    #customer-part {
+        padding: 50px 0;
+    }
+    .customer-write {
+        margin-bottom: 20px;
+    }
+    #contact-part {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .contact-write p {
+        line-height: 30px;
+    }
+    .contact-form2 input {
+        padding: 10px 214px 10px 10px;
+    }
+    .contact-form3 input {
+        padding: 10px 216px 110px 10px;
+    }
+    .top-header-item {
+        margin-top: 50px;
+    }
+    .submit-btn a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #last-part {
+        padding: 40px 0;
+    }
+    .last-menu-part ul li a {
+        font-size: 10px;
+    }
+    .last-dag {
+        margin-top: 40px;
+    }
+    .last-part-write ul li a {
+        font-size: 16px;
+    }
+    .dager-nicher-part p {
+        margin-left: 10px;
+    }
+
+ }
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) { 
+    .navbar-toggler i {
+        color: red;
+        margin-left: -887px;
+    }
+    .nav-item{
+       background-color:teal;
+    }
+    .nav-link{
+        margin-left: 178px;
+    }
+    .navbar-btn a {
+        margin-left: 193px;
+    }
+    .top-header-item {
+        margin-top: 0px;
+    }
+    .top-header-item h3 {
+        font-size: 30px;
+    }
+    .top-header-item p {
+        padding-right: 94px;
+        margin-top: 20px;
+        margin-bottom: -12px;
+    }
+    .top-header-img img {
+        margin-left: -60px;
+    }
+    .topheadercolor {
+        padding: 40px 0;
+        width: 100%;
+        background-color: #F5FCFF;
+    }
+    #header-part {
+         padding-top: 0px;
+       
+    }
+    #top-header-part {
+        margin-bottom: 40px;
+    }
+    .header-write h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .header-item {
+        margin-bottom: 30px;
+    }
+    .about-me-item {
+        padding-top: 80px;
+    }
+    #about-me {
+        margin-bottom: 40px;
+    }
+    .portfolio-icon {
+        padding-top: 0px;
+    }
+    .portfolio-icon ul li {
+        margin-bottom: 20px;
+    }
+    .portfolio-write {
+        margin-bottom: 20px;
+    }
+    #portfolio-part {
+        margin-bottom: 40px;
+    }
+    #customer-part {
+        padding: 50px 0;
+    }
+    .customer-write {
+        margin-bottom: 20px;
+    }
+    #contact-part {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .contact-write p {
+        line-height: 30px;
+    }
+    .contact-form2 input {
+        padding: 10px 214px 10px 10px;
+    }
+    .contact-form3 input {
+        padding: 10px 216px 110px 10px;
+    }
+    .top-header-item {
+        margin-top: 50px;
+    }
+    .submit-btn a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #last-part {
+        padding: 40px 0;
+    }
+    .last-menu-part ul li a {
+        font-size: 10px;
+    }
+    .last-dag {
+        margin-top: 40px;
+    }
+    .last-part-write ul li a {
+        font-size: 16px;
+    }
+    .dager-nicher-part p {
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+    
+ }
