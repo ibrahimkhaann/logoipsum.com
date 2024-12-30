@@ -12,6 +12,11 @@
         color: red;
         margin-left: -90px;
     }
+      *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
     .navbar-brand {
         margin-left: -59px;
     }
@@ -125,6 +130,11 @@
         color: red;
         margin-left: -300px;
     }
+      *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
     .navbar-brand {
         margin-left: -156px;
     }
@@ -239,6 +249,11 @@
         color: red;
         margin-left: -887px;
     }
+      *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
     .nav-item{
        background-color:teal;
     }
